@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Quiz.MainPage">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout x:Name="quizStackLayout">
+                <Label Text="Викторина"/>
+                <Label Text="Кто написал роман 'Преступление и наказание'?" FontSize="20" />
+                <StackLayout x:Name="question1Options">
+                    <RadioButton Content="Лев Толстой" FontSize="15" />
+                    <RadioButton Content="Федор Достоевский" FontSize="15" />
+                    <RadioButton Content="Иван Тургенев" FontSize="15" />
+                    <RadioButton Content="Александр Пушкин" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Какая планета является самой большой в Солнечной системе?" FontSize="20" />
+                <StackLayout x:Name="question2Options">
+                    <RadioButton Content="Меркурий" FontSize="15" />
+                    <RadioButton Content="Венера" FontSize="15" />
+                    <RadioButton Content="Земля" FontSize="15" />
+                    <RadioButton Content="Юпитер" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Кто из перечисленных был президентом США в 2020 году?" FontSize="20" />
+                <StackLayout x:Name="question3Options">
+                    <RadioButton Content="Джордж Буш" FontSize="15" />
+                    <RadioButton Content="Барак Обама" FontSize="15" />
+                    <RadioButton Content="Дональд Трамп" FontSize="15" />
+                    <RadioButton Content="Джо Байден" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Какая из следующих стран находится в Южной Америке?" FontSize="20" />
+                <StackLayout x:Name="question4Options">
+                    <RadioButton Content="Нигерия" FontSize="15" />
+                    <RadioButton Content="Чили" FontSize="15" />
+                    <RadioButton Content="Япония" FontSize="15" />
+                    <RadioButton Content="Ответ 4" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Кто написал пьесу 'Гамлет'?" FontSize="20" />
+                <StackLayout x:Name="question5Options">
+                    <RadioButton Content="Уильям Шекспир" FontSize="15" />
+                    <RadioButton Content="Чарльз Диккенс" FontSize="15" />
+                    <RadioButton Content="Оскар Уайльд" FontSize="15" />
+                    <RadioButton Content="Жюль Верн" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Какое животное является символом на гербе России?" FontSize="20" />
+                <StackLayout x:Name="question6Options">
+                    <RadioButton Content="Орел" FontSize="15" />
+                    <RadioButton Content="Медведь" FontSize="15" />
+                    <RadioButton Content="Лев" FontSize="15" />
+                    <RadioButton Content="Дракон" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Кто изобрел телефон?" FontSize="20" />
+                <StackLayout x:Name="question7Options">
+                    <RadioButton Content="Томас Эдисон" FontSize="15" />
+                    <RadioButton Content="Александр Грэм Белл" FontSize="15" />
+                    <RadioButton Content="Никола Тесла" FontSize="15" />
+                    <RadioButton Content="Гуглиельмо Маркони" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Сколько планет в Солнечной системе?" FontSize="20" />
+                <StackLayout x:Name="question8Options">
+                    <RadioButton Content="7" FontSize="15" />
+                    <RadioButton Content="8" FontSize="15" />
+                    <RadioButton Content="9" FontSize="15" />
+                    <RadioButton Content="10" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="В каком году состоялось первое пилотируемое космическое путешествие?" FontSize="20" />
+                <StackLayout x:Name="question9Options">
+                    <RadioButton Content="1957" FontSize="15" />
+                    <RadioButton Content="1961" FontSize="15" />
+                    <RadioButton Content="1969" FontSize="15" />
+                    <RadioButton Content="1975" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Какое из этих животных является хищником?" FontSize="20" />
+                <StackLayout x:Name="question10Options">
+                    <RadioButton Content="Кролик" FontSize="15" />
+                    <RadioButton Content="Лев" FontSize="15" />
+                    <RadioButton Content="Корова" FontSize="15" />
+                    <RadioButton Content="Лошадь" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Какая из этих стран не имеет своего побережья?" FontSize="20" />
+                <StackLayout x:Name="question11Options">
+                    <RadioButton Content="Россия" FontSize="15" />
+                    <RadioButton Content="Италия" FontSize="15" />
+                    <RadioButton Content="Австралия" FontSize="15" />
+                    <RadioButton Content="Швейцария" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Какой самый большой океан на Земле?" FontSize="20" />
+                <StackLayout x:Name="question12Options">
+                    <RadioButton Content="Атлантический" FontSize="15" />
+                    <RadioButton Content="Индийский" FontSize="15" />
+                    <RadioButton Content="Северный Ледовитый" FontSize="15" />
+                    <RadioButton Content="Тихий" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Кто написал 'Гарри Поттера'?" FontSize="20" />
+                <StackLayout x:Name="question13Options">
+                    <RadioButton Content="Джон Толкин" FontSize="15" />
+                    <RadioButton Content="Джоан Роулинг" FontSize="15" />
+                    <RadioButton Content="Джордж Мартин" FontSize="15" />
+                    <RadioButton Content="Стивен Кинг" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Что изучает исследователь ветеринарной медицины?" FontSize="20" />
+                <StackLayout x:Name="question14Options">
+                    <RadioButton Content="Заболевания растений" FontSize="15" />
+                    <RadioButton Content="Заболевания животных" FontSize="15" />
+                    <RadioButton Content="Заболевания людей" FontSize="15" />
+                    <RadioButton Content="Климат" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Какое животное издает звук 'мяу'?" FontSize="20" />
+                <StackLayout x:Name="question15Options">
+                    <RadioButton Content="Собака" FontSize="15" />
+                    <RadioButton Content="Кошка" FontSize="15" />
+                    <RadioButton Content="Птица" FontSize="15" />
+                    <RadioButton Content="Лошадь" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Какая из этих стран находится в Европе?" FontSize="20" />
+                <StackLayout x:Name="question16Options">
+                    <RadioButton Content="Бразилия" FontSize="15" />
+                    <RadioButton Content="Япония" FontSize="15" />
+                    <RadioButton Content="Канада" FontSize="15" />
+                    <RadioButton Content="Франция" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Кто изображен на американской купюре в 1 доллар?" FontSize="20" />
+                <StackLayout x:Name="question17Options">
+                    <RadioButton Content="Джордж Вашингтон" FontSize="15" />
+                    <RadioButton Content="Авраам Линкольн" FontSize="15" />
+                    <RadioButton Content="Бенджамин Франклин" FontSize="15" />
+                    <RadioButton Content="Томас Джефферсон" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Какая река является самой длинной в мире?" FontSize="20" />
+                <StackLayout x:Name="question18Options">
+                    <RadioButton Content="Амазонка" FontSize="15" />
+                    <RadioButton Content="Нил" FontSize="15" />
+                    <RadioButton Content="Волга" FontSize="15" />
+                    <RadioButton Content="Янцзы" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Какая из этих стран имеет самую большую площадь?" FontSize="20" />
+                <StackLayout x:Name="question19Options">
+                    <RadioButton Content="Индия" FontSize="15" />
+                    <RadioButton Content="США" FontSize="15" />
+                    <RadioButton Content="Китай" FontSize="15" />
+                    <RadioButton Content="Россия" FontSize="15" />
+                </StackLayout>
+
+                <Label Text="Какая планета считается 'Красной планетой'?" FontSize="20" />
+                <StackLayout x:Name="question20Options">
+                    <RadioButton Content="Меркурий" FontSize="15" />
+                    <RadioButton Content="Венера" FontSize="15" />
+                    <RadioButton Content="Марс" FontSize="15" />
+                    <RadioButton Content="Юпитер" FontSize="15" />
+                </StackLayout>
+
+                <Button Text="Завершить тест" Clicked="FinishTestButton_Clicked"/>
+                <Label x:Name="resultLabel" Text="Ваш результат: 0" FontSize="25" Padding="5,0,0,0"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
